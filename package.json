@@ -3,7 +3,7 @@
 	"displayName": "vscode-lwc",
 	"description": "POC that uses the LWC framework to build a rich UI for a custom VScode Extension",
 	"author": "Raffaele Fioratto",
-    "bugs": "https://github.com/ImperiumMaximus/sfdx-metadata-patcher/issues",
+	"bugs": "https://github.com/ImperiumMaximus/vscode-extension-lwc-poc/issues",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.54.0"
