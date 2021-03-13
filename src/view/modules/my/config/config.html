@@ -1,0 +1,7 @@
+<template>
+    <div class="slds-text-heading_large slds-text-color_default">Config name : {_state.config.name}</div>
+    <div class="slds-text-body_regular slds-text-color_default">{_state.config.description}</div>
+    <my-users users={_state.config.users} onuserstate={handleUserState}></my-users>
+    <br/>
+    <button class="slds-button slds-button_brand save" value="Save the configuration" onclick={saveConfig}>Save the configuration</button></template>
+</template>
